@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>DevXMood✨</title>
+</head>
+<body>
+	<section class="home-section">
+		<div class="carousel">
+			<img src="https://i.scdn.co/image/ab67616d00001e02abf91851997179d195afab5f" class="active" alt="">
+			<img src="https://i.scdn.co/image/ab67616d00001e02f77a84e6e8fe67deecc242dd" alt="">
+			<img src="https://i.scdn.co/image/ab67616d0000b273fd2df008046f04c32d9c0c2e" alt="">
+			<img src="https://i.scdn.co/image/ab67616d0000b27305ab1baaa49d516762821a20" alt="">
+			<img src="https://i.scdn.co/image/ab67616d0000b273b2abfd2439b6c23c3664df87" alt="">
+			<img src="https://i.scdn.co/image/ab67616d0000b27352fe6875028c892308ffc2f7" alt="">
+			<img src="https://i.scdn.co/image/ab67616d0000b273fb515071c18fd76ca59a5a05" alt="">
+			<img src="https://i.scdn.co/image/ab67616d0000b27376d18b5a17bd977a9a87551b" alt="">
+		</div>
+		<h1 class="heading">recently played</h1>
+		<div class="playlists-group">
+			<div class="playlist-card">
+				<img src="https://i.scdn.co/image/ab67616d00001e02abf91851997179d195afab5f" class="playlist-card-img" alt="">
+				<p class="playlist-card-name">Kahin To</p>
+			</div>
+			<div class="playlist-card">
+				<img src="https://i.scdn.co/image/ab67616d00001e02f77a84e6e8fe67deecc242dd" class="playlist-card-img" alt="">
+				<p class="playlist-card-name">Tu Jaane Na</p>
+			</div>
+			//+3 more
+		</div>
+		<h1 class="heading">based on your listening</h1>
+		<div class="playlists-group ">
+			<div class="playlist-card">
+				<img src="https://i.scdn.co/image/ab67616d0000b27352fe6875028c892308ffc2f7" class="playlist-card-img" alt="">
+				<p class="playlist-card-name">Aaoge Jab Tum</p>
+			</div>
+			<div class="playlist-card">
+				<img src="https://i.scdn.co/image/ab67616d0000b273fb515071c18fd76ca59a5a05" class="playlist-card-img" alt="">
+				<p class="playlist-card-name">Tajdar-E-Haram</p>
+			</div>
+		</div>
+	</section>
+	<section class="music-player-section">
+
+		<img src="assets/images/back.png" class="back-btn icon hide" alt="">
+		<img src="assets/images/nav.png" class="nav-btn icon hide" alt="">
+	
+		<h1 class="current-song-name">Mera Yaar</h1>
+		<p class="artist-name hide">Shankar-Ehsaan-Loy, Javed Bashir</p>
+	
+		<img src="https://i.scdn.co/image/ab67616d0000b273fd2df008046f04c32d9c0c2e" class="cover hide" alt="">
+	
+		<div class="seek-bar-container">
+			<input type="range" class="music-seek-bar" value="0">
+			<p class="current-time hide">00 : 00</p>
+			<p class="duration hide">00 : 00</p>
+		</div>
+	
+		<div class="controls">
+			<span class="fas fa-redo"></span>
+			<div class="main">
+				<i class="fas fa-backward active"></i>
+				<i class="fas fa-play active"></i>
+				<i class="fas fa-pause"></i>
+				<i class="fas fa-forward active"></i>
+			</div>
+			<input type="range" class="volume-slider" max="1" value="1" step="0.1">
+			<span class="fas fa-volume-up"></span>
+		</div>
+	
+	</section>
+	<section class="playlist">
+
+		<img src="assets/images/back.png" class="back-btn icon" alt="">
+	
+		<h1 class="title">playlist</h1>
+	
+		<div class="queue active">
+			<div class="queue-cover">
+				<img src="https://i.scdn.co/image/ab67616d0000b273fd2df008046f04c32d9c0c2e" alt="">
+				<i class="fas fa-pause"></i>
+			</div>
+			<p class="name">Mera Yaar</p>
+		</div>
+		<div class="queue">
+			<div class="queue-cover">
+				<img src="https://i.scdn.co/image/ab67616d00001e02abf91851997179d195afab5f" alt="">
+				<i class="fas fa-pause"></i>
+			</div>
+			<p class="name">Kahin To</p>
+		</div>
+		<div class="queue">
+			<div class="queue-cover">
+				<img src="https://i.scdn.co/image/ab67616d00001e02f77a84e6e8fe67deecc242dd" alt="">
+				<i class="fas fa-pause"></i>
+			</div>
+			<p class="name">Tu Jaane Na</p>
+		</div>
+		<div class="queue">
+			<div class="queue-cover">
+				<img src="https://i.scdn.co/image/ab67616d0000b27305ab1baaa49d516762821a20" alt="">
+				<i class="fas fa-pause"></i>
+			</div>
+			<p class="name">Aye Khuda</p>
+		</div>
+		<div class="queue">
+			<div class="queue-cover">
+				<img src="https://i.scdn.co/image/ab67616d0000b273b2abfd2439b6c23c3664df87" alt="">
+				<i class="fas fa-pause"></i>
+			</div>
+			<p class="name">Bulleya</p>
+		</div>
+		<div class="queue">
+			<div class="queue-cover">
+				<img src="https://i.scdn.co/image/ab67616d0000b27352fe6875028c892308ffc2f7" alt="">
+				<i class="fas fa-pause"></i>
+			</div>
+			<p class="name">Aaoge Jab Tum</p>
+		</div>
+		<div class="queue">
+			<div class="queue-cover">
+				<img src="https://i.scdn.co/image/ab67616d0000b273fb515071c18fd76ca59a5a05" alt="">
+				<i class="fas fa-pause"></i>
+			</div>
+			<p class="name">Tajdar-E-Haram</p>
+		</div>
+		<div class="queue">
+			<div class="queue-cover">
+				<img src="https://i.scdn.co/image/ab67616d0000b27376d18b5a17bd977a9a87551b" alt="">
+				<i class="fas fa-pause"></i>
+			</div>
+			<p class="name">Tose Naina</p>
+		</div>
+	</section>
+	<audio src="" id="audio-source"></audio>
+	<script src="data.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
